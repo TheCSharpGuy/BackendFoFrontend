@@ -1,0 +1,26 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "bffweb",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "BackendFoFrontend",
+          "Version": "1.0",
+          "Url": "http://localhost:5205/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "<<your_own_key_for_other_API>>",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "<<NAME.OF.THE.API>>",
+          "Version": "1.0",
+          "Url": "http://localhost:5205/<<your_own_key_for_other_API>>/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
